@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-04-01T00:50:10.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="pX46fxcXVao8lfzugRkG" version="24.2.1" type="google">
+  <diagram name="Page-1" id="SrRCX1mXbEa8XY5YVjTz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-2" value="GeometricObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-3" value="-color: String = &quot;white&quot;&lt;div&gt;-filled: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RtFpt_-u1mB2xYfn1uQY-2">
+          <mxGeometry y="26" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RtFpt_-u1mB2xYfn1uQY-2">
+          <mxGeometry y="70" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-5" value="#GeometricObject()&lt;div&gt;#Geometric Object(String color, boolean filled)&lt;/div&gt;&lt;div&gt;+getColor(): String&lt;/div&gt;&lt;div&gt;+setColor(String color): void&lt;/div&gt;&lt;div&gt;+isFIlled(): boolean&lt;/div&gt;&lt;div&gt;+setFilled(boolean filled): void&lt;/div&gt;&lt;div&gt;+getArea(): abstract&lt;/div&gt;&lt;div&gt;+getPerimeter(): abstract&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RtFpt_-u1mB2xYfn1uQY-2">
+          <mxGeometry y="78" width="200" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-7" value="Triangle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-8" value="-side1: double = 1.0&lt;div&gt;-side2: double = 1.0&lt;/div&gt;&lt;div&gt;-side3: double = 1.0&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RtFpt_-u1mB2xYfn1uQY-7">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RtFpt_-u1mB2xYfn1uQY-7">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-10" value="+Triangle()&lt;div&gt;+Triangle(double side1, double side2, double side3)&lt;/div&gt;&lt;div&gt;+getSide1(): double&lt;/div&gt;&lt;div&gt;+getSide2(): double&lt;/div&gt;&lt;div&gt;+getSide3(): double&lt;/div&gt;&lt;div&gt;+setSide1(double side1): void&lt;/div&gt;&lt;div&gt;+setSide2(double side2): void&lt;/div&gt;&lt;div&gt;+setSide3(double side3): void&lt;/div&gt;&lt;div&gt;+getArea(): double&lt;/div&gt;&lt;div&gt;+getPerimeter(): double&lt;/div&gt;&lt;div&gt;+toString(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RtFpt_-u1mB2xYfn1uQY-7">
+          <mxGeometry y="88" width="160" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="RtFpt_-u1mB2xYfn1uQY-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="419.5" y="310" as="sourcePoint" />
+            <mxPoint x="419.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
