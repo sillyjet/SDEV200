@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-04-08T02:11:29.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="SyBQOKOTed02xLbYywBP" version="24.2.1" type="google">
+  <diagram name="Page-1" id="kk7_ymQCHKjT7LutdwO1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-1" value="GeometricObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-2" value="-color: String&lt;div&gt;-filled: boolean&lt;/div&gt;&lt;div&gt;-dateCreated: java.util.Date&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fH-D62ZcSV_WNVmDb1sz-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fH-D62ZcSV_WNVmDb1sz-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-4" value="#GeometricObject()&lt;div&gt;#GeometricObject(color: String, filled: boolean)&lt;/div&gt;&lt;div&gt;+getColor(): String&lt;/div&gt;&lt;div&gt;+setColor(color: String): void&lt;/div&gt;&lt;div&gt;+isFilled(): boolean&lt;/div&gt;&lt;div&gt;+setFilled(filled: boolean): void&lt;/div&gt;&lt;div&gt;+getDateCreated(): java.util.Date&lt;/div&gt;&lt;div&gt;+toString(): String&lt;/div&gt;&lt;div&gt;&lt;i&gt;+getArea(): double&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+getPerimeter(): double&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fH-D62ZcSV_WNVmDb1sz-1">
+          <mxGeometry y="88" width="160" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-5" value="Circle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-6" value="-radius: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fH-D62ZcSV_WNVmDb1sz-5">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fH-D62ZcSV_WNVmDb1sz-5">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-8" value="+Circle()&lt;div&gt;+Circle(radius: double)&lt;/div&gt;&lt;div&gt;+Circle(radius: double, color: String, filled: boolean)&lt;/div&gt;&lt;div&gt;+getRadius(): double&lt;/div&gt;&lt;div&gt;+setRadius(radius: double): void&lt;/div&gt;&lt;div&gt;+getDiameter(): double&lt;/div&gt;&lt;div&gt;+compareTo(e: Circle): int&lt;/div&gt;&lt;div&gt;+equals(e: Circle): boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fH-D62ZcSV_WNVmDb1sz-5">
+          <mxGeometry y="60" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fH-D62ZcSV_WNVmDb1sz-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.508;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fH-D62ZcSV_WNVmDb1sz-5" target="fH-D62ZcSV_WNVmDb1sz-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="590" as="sourcePoint" />
+            <mxPoint x="500" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
