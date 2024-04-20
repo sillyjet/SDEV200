@@ -10,6 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import java.io.IOException;
 
+// I used rat images instead. I hope this is okay. They work the same except that I had to write code to resize and rotate them.
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
