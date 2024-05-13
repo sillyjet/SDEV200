@@ -660,11 +660,6 @@ public class Rat {
         return str.toString();
     }
 
-    public String generateOffspringDNA(String DNA1, String DNA2) {
-
-        return "this is an error please fix";
-    }
-
     public String generateStandardColor() {
         String[] colorHexes = {"#111111", "#572800", "#210F00", "#B3845B", "#B39B5B", "#FFF39C", "#EDEAB2", "#777777", "#BBBBBB", "#333333"};
         Random rand = new Random();
