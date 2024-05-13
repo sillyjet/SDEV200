@@ -53,10 +53,4 @@ public class Cage extends Material {
         imagePane.getChildren().add(doorImageView);
         return imagePane;
     }
-
-    public StackPane addWater(StackPane cageFront, ImageView water) {
-        Main.shrink(water, 5);
-        cageFront.getChildren().add(water);
-        return cageFront;
-    }
 }
