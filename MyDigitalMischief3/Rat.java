@@ -325,19 +325,6 @@ public class Rat {
         return image;
     }
 
-    public String[] makeBabies(String DNA) {
-        int max = 10, min = 5;
-        Random r = new Random();
-        boolean normalSize = r.nextBoolean();
-        if (!normalSize) {
-            max = 20;
-            min = 1;
-        }
-        int size = r.nextInt(max - min + 1) + min;
-        String[] litter = new String[size];
-        return litter;
-    }
-
     public String imageCode() {
         StringBuilder str = new StringBuilder();
         String a;
